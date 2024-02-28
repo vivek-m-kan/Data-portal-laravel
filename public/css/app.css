@@ -1,0 +1,17 @@
+main {
+	display: flex;
+	flex-wrap: nowrap;
+	height: 100vh;
+	/* height: -webkit-fill-available; */
+	max-height: 100vh;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
+.table-responsive {
+    max-height: calc(100vh - 255px) !important;
+}
+
+th:hover .sort-icon {
+    opacity: 1 !important;
+}
